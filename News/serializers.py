@@ -9,7 +9,6 @@ class NewsSerializer(ModelSerializer):
         fields = '__all__'
 
 
-
 class CommentSerializer(ModelSerializer):
     class Meta:
         model = Comment
